@@ -1,4 +1,5 @@
-import { isObject } from "@heyzxp/utils";
+import { isObject } from '@heyzxp/utils'
 
-let is = isObject({});
-console.log(is);
+const is = isObject({})
+// console.log(is)
+export default is
